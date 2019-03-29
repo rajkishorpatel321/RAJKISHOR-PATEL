@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project main face</title>
+
+
+<style>
+table {
+  border:2px;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 1px;
+}
+
+
+
+tr
+{
+
+color: red;
+}
+th {
+
+  color: red;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>
+
+</head>
+<body  >
+<h1 align="center"><font color="red">***final project***</font></h1>
+<hr/>
+
+
+
+<h3 ><font color="red">sensor value</font></h3>
+<table>
+  <tr>
+    <th><h2>sensor </h2></th>
+    <th><h2>value</h2></th> 
+    </tr>
+  <tr>
+    <td><h4>humedety</h4></td>
+    <td><h4><?php echo $h ;?></h4></td>
+  </tr>
+  <tr>
+    <td><h4>mostier</h4></td>
+    <td><h4><?php echo $m ;?></h4></td> 
+  </tr>
+  <tr>
+    <td><h4>wind speed</h4></td>
+    <td><h4><?php echo $wi ;?></h4></td> 
+  </tr>
+    <tr>
+    <td><h4>water tank</h4></td>
+    <td><h4><?php echo $w ;?></h4></td> 
+  </tr>
+    <tr>
+    <td><h4>reat time temperature</h4></td>
+    <td><h4><?php echo $t ;?></h4></td> 
+  </tr>
+</table>
+<hr/>
+<h3><font color="red">transducer</font></h3>
+<h4>pump statuse</h4>
+<button value="on" onclick="pumpon()">on</button>
+<button value="off" style="background-color:red" onclick="pumpoff()">off</button>
+
+<h4>one more statuse</h4>
+<button value="on" onclick="trans1on()">on</button>
+<button value=off style="background-color:red" onclick="trans1off()">off</button><br/><hr/>
+<a href="help.html" style="margin:190px">help </a><a href="content.html" style="margin:190px" > contect us</a>
+<a href="privecy policy" style="margin:190px">privecy policy</a><hr/>
+</body>
+	<footer style="bacgroundcolor">
+		<center >
+			<h4><b>2019 | amitkumar.production | borl bale 2019</b></h4><hr/>
+		</center>
+		
+			<p>&copy;all right reserve to @amitkumar.production</p>
+		
+	</footer>
+</html>
